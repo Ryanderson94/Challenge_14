@@ -27,11 +27,11 @@ run pip install -r requirements.txt
 
 1. Navigate to the directory in either the Terminal or GitBash. 
 
-2. From the top folder (Challenge_13), launch jupyter lab by typing 'jupyter lab' into Terminal or Gitbash and pressing 'Enter'
+2. From the top folder (Challenge_14), launch jupyter lab by typing 'jupyter lab' into Terminal or Gitbash and pressing 'Enter'
 <img width="570" alt="Screen Shot 2022-05-08 at 1 56 51 PM" src="https://user-images.githubusercontent.com/98444459/167309092-db3b1a32-49bf-4a3c-a7d7-cc9674d32d38.png">
 
-3. Open the 'venture_funding_with_deep_learning.ipynb' notebook and follow the instructions therein.  
-<img width="451" alt="Screen Shot 2022-06-18 at 5 10 26 PM" src="https://user-images.githubusercontent.com/98444459/174460741-4f70bc2f-ada6-4fb8-891f-8f1fe831b2bc.png">
+3. Open the 'machine_learning_trading_bot.ipynb' notebook and follow the instructions therein.  
+<img width="395" alt="Screen Shot 2022-06-26 at 7 37 53 PM" src="https://user-images.githubusercontent.com/98444459/175849666-b8b3d528-577a-4cd3-b700-ddba8d2b0b9d.png">
 
 ---
 
@@ -39,6 +39,15 @@ run pip install -r requirements.txt
 
 - Baseline Performance
 Actual vs Strategy Returns:
+<img width="810" alt="Screen Shot 2022-06-26 at 7 35 13 PM" src="https://user-images.githubusercontent.com/98444459/175849683-cfcdc2fa-0d51-4893-afcf-ce2c75386508.png">
+As we can see with the above image, the baseline strategy already outperforms actual returns so it is a strong baseline. 
+
+- Tuning the Baseline
+What impact resulted from increasing or decreasing the training window?
+
+What impact resulted from increasing or decreasing either or both of the SMA windows?
+<img width="808" alt="Screen Shot 2022-06-26 at 7 58 55 PM" src="https://user-images.githubusercontent.com/98444459/175851818-0d2fe28f-905b-49d0-a0d1-8f23fd7ac9a8.png">
+
 
 
 --- 
