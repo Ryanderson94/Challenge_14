@@ -37,19 +37,26 @@ run pip install -r requirements.txt
 
 # Analysis
 
-- Baseline Performance
+## Baseline Performance
 Actual vs Strategy Returns:
 <img width="810" alt="Screen Shot 2022-06-26 at 7 35 13 PM" src="https://user-images.githubusercontent.com/98444459/175849683-cfcdc2fa-0d51-4893-afcf-ce2c75386508.png">
 As we can see with the above image, the baseline strategy already outperforms actual returns so it is a strong baseline. 
 
-- Tuning the Baseline
+## Tuning the Baseline
+<img width="806" alt="Screen Shot 2022-06-26 at 8 19 24 PM" src="https://user-images.githubusercontent.com/98444459/175853694-5ce607c2-182d-4f24-b723-9efeea0cd303.png">
 What impact resulted from increasing or decreasing the training window?
+By increasing the trading window from 3 to 6 months, the strategy returns actually performed worse that the actual returns.
 
+<img width="806" alt="Screen Shot 2022-06-26 at 8 09 17 PM" src="https://user-images.githubusercontent.com/98444459/175852764-6a8472d4-54c2-41f6-b204-40a71fb8caac.png">
 What impact resulted from increasing or decreasing either or both of the SMA windows?
-<img width="808" alt="Screen Shot 2022-06-26 at 7 58 55 PM" src="https://user-images.githubusercontent.com/98444459/175851818-0d2fe28f-905b-49d0-a0d1-8f23fd7ac9a8.png">
+By adjusting the windows up to 16 and 120 respectively, the strategy returns mimic the actual returns trends more closely but, but it still ultimately finishes down when compared the the actual returns. 
 
+As per the above photos, increasing the trading window appears to allow better predictions and a more accurate model, which retults in better strategy returns. 
 
-
+## New Machine Learning Classifier
+<img width="808" alt="Screen Shot 2022-06-26 at 8 22 19 PM" src="https://user-images.githubusercontent.com/98444459/175854023-e70b33ae-ced5-43e8-a165-9c55115d96b1.png">
+Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
+As you can see by the above image, the Decision Tree Classifier does a much poorer job than the baseline model and my tuned trading algorithm since the cumulative returns are much much worse. 
 --- 
 
 ## Contributors
